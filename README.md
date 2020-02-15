@@ -30,4 +30,4 @@ Pokretanjem ovog fajla, generiše se <b>metadataFirst.pkl</b>, koji sadrži...
 
 
 ## Treniranje neuronske mreže
-Nakon što je dataset kompletno pripremljen, može se preći na korak obučavanja mreže. Da bi se obučavanje mreže pokrenulo, potrebno je pokrenuti train.py. 
+Nakon što je dataset kompletno pripremljen, može se preći na korak obučavanja mreže. Da bi se obučavanje mreže pokrenulo, potrebno je pokrenuti <b>train.py</b>. 
