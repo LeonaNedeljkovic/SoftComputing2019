@@ -1,14 +1,26 @@
 # SoftComputing2019
 
-## Pokretanje istreniranog modela
-
-<b>Pre pokretanja aplikacije skinuti sleće fajlove i smestiti ih u folder "data":</b><br/>
+<br/>
+<b>Pre pokretanja projekta trebalo bi instalirati:</b>
+<br/>
+<ul>
+<li>tensorflow</li>
+<li>tensorlayer</li>
+<li>tqdm</li>
+<li>keras</li>
+<li>nltk</li>
+<li>pandas</li>
+<li>numpy</li>
+</ul>
+<br/>
+<b>Takođe bi trebalo skinuti sleće fajlove i smestiti ih u folder "data":</b><br/>
 <ul>
   <li><b>RC_2013-06</b> (https://drive.google.com/open?id=1hZ1ZgnGctEcoODzi1qI19_qYnMXKXfae)</li>
   <li><b>model.npz</b> (https://drive.google.com/file/d/1ZA3jEKcVCKqOXWWfeQiyFKAf6U35Fk1H/view?fbclid=IwAR3VSVWOihGIC0AG1NAFdy_COgOTiNCgL7DX73HyANbMWCy7J_dFQnWXZ4Q)</li>
   <li><b>chatbotDatabase.db</b> (https://drive.google.com/file/d/1HzGQO5L1RaDz0ezFB0_tYLsfZZ8ssq1X/view?fbclid=IwAR1OigHNMzG6ALOYojC0NixrLDjrhIwoCb5P3ZOK4Z3OGSbbgTcAmzmzkro)</li>
 </ul>
 
+## Pokretanje istreniranog modela
 
 Da biste pokrenuli aplikaciju i samostalno testirali model koji smo trenirale, potrebno je pokrenuti fajl <b>main.py</b>. Tada putem konzole možete prosleđivati rečenice i aplikacija će izbacivati odgovore na njih.
 
