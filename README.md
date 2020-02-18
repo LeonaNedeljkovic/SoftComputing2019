@@ -26,7 +26,7 @@ U ovom koraku se uz pomoć NLTK biblioteke koriguju neke od nepravilno napisanih
 
 ### 5. Pokretanje generate_metadata.py
 
-Pokretanjem ovog fajla, generiše se <b>metadataFirst.pkl</b>, koji sadrži...
+Pokretanjem ovog fajla, generiše se <b>metadataFirst.pkl</b>, koji sadrži sve input rečenice iz dataseta i odgovarajuće outpute. Svaki input i output je predstavljen nizom brojeva, a svakom broju odgovara jedna reč. Takođe ovaj fajl sadrži tokenizer koji sadrži informaciju o vezi između brojeva i reči u vidu rečnika, kao i odgovarajuće metode za konverziju reči u brojeve i obrnuto. Ovaj fajl će se koristiti pri treningu i pri kasnijem korišćenju obučene mreže.
 
 
 ## Treniranje neuronske mreže
