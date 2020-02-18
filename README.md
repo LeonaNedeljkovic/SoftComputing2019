@@ -10,7 +10,7 @@ Radi lakše i brže provere, možete pokrenuti i fajl <b>check_sentences.py</b>.
 U daljem tekstu ćemo detaljno objasniti postupak po kom smo dataset pripremile za treniranje i koji bi se mogao ponoviti u slučaju kreiranja novog dataseta.
 
 ### 1. Pokretanje read_data.py
-Pokretanjem ovog fajla želimo da iz prvobitnog dataset-a izdvojimo samo one podatke koji su nam potrebni za obučavanje naše mreže. Naš prvobitni dataset predstavlja fajl <b>RC_2013-06</b>, koji sadrži sve komentare ostavljene na Reddit-u juna 2013. godine, zadate u JSON formatu. Uz određene kriterijume, iz ovog JSON fajla smo izdvojile komentare i njihove "najbolje" podkomentare i smestile ih u bazu podataka, odnosno u <b>databaseChatbot.db</b>. Ovaj korak nama je trajao nekoliko sati.
+Pokretanjem ovog fajla želimo da iz prvobitnog dataset-a izdvojimo samo one podatke koji su nam potrebni za obučavanje naše mreže. Naš prvobitni dataset predstavlja fajl <b>RC_2013-06</b> (https://drive.google.com/open?id=1hZ1ZgnGctEcoODzi1qI19_qYnMXKXfae), koji sadrži sve komentare ostavljene na Reddit-u juna 2013. godine, zadate u JSON formatu. Uz određene kriterijume, iz ovog JSON fajla smo izdvojile komentare i njihove "najbolje" podkomentare i smestile ih u bazu podataka, odnosno u <b>databaseChatbot.db</b>. Ovaj korak nama je trajao nekoliko sati.
 
 ### 2. Pokretanje generate_to_from.py
 
